@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+
+import skilstak.colors as c
+
+def hello():
+  """Print Hello World"""  
+  print(c.clear + "Hello World!" + c.reset)
+
+def hello_color():
+    """Print Hello World in color"""
+    try:
+        print(c.clear)
+        while True:
+            print( 
+            
+if __name__ == '__main__':
+    hello()
