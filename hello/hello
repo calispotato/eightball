@@ -2,16 +2,30 @@
 
 import skilstak.colors as c
 
-def hello():
-  """Print Hello World"""  
-  print(c.clear + "Hello World!" + c.reset)
 
-def hello_color():
-    """Print Hello World in color"""
-    try:
-        print(c.clear)
-        while True:
-            print( 
-            
+def hello():
+  """Print Hello World"""   
+    print(c.clear + "Hello World!" + c.reset)
+
+def multi(message):
+    """prints hello world in multicolored letters"""
+    while True:
+        print(c.clear + c.multi(message))
+
 if __name__ == '__main__':
     hello()
+    import sys
+
+    option = ""
+    message = ""
+
+    if len(sys.argv) > 2:
+        option = sys.argv[1]
+        message = sys.argv[2]
+    elif len(sys.argv) == 2:
+        if sys.argv[1].startswith("-"):
+            option = sys.argv[1]
+        else:
+            message = sys.argv[1]
+
+    message = 
