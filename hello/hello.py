@@ -16,3 +16,4 @@ def random(message):
     """Prints hello world in pretty colors"""
     while True:
         print(c.clear + c.rc() + (message))
+
