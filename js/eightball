@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+
+'use strict'
+var c = require('skilstak-colors');
+
+var answers = [
+  "yes",
+  "no",
+  "maybe"
+];
+
+var easterEgg1 = ['die', 'what? A shirt'];
+var easterEgg2 = ['love', 'malfunction detected: do not ask me'];
+var easterEggs = [easterEgg1, easterEgg2];
+console.log(c.red + 'Welcome to our eightball program.');
+
+function print(message) {
+  process.stdout.write(message + "\n");
+};
+
+print("Welcome :)");
+
+
