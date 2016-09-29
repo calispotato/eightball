@@ -1,5 +1,7 @@
 [
-  ["is timothy smarter than mr z", "yes obviously"],
+  ["cal|Cal", "I programmed this so every time you have cal in the question it says this."]
+  ["is dyles real", "yes"],
+  ["is timothy smarter than mr z", "don't ask stupid questions"],
   ["Love", "<3"],
   ["death|die", "Stop asking about death."],
   ["Easter", "easter.txt"],
